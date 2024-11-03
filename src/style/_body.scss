@@ -1,0 +1,9 @@
+@use "./variables";
+
+body {
+  background-color: variables.$body-bgc !important
+  ;
+  #root {
+    max-width: 794px;
+  }
+}
