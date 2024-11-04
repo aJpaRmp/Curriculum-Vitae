@@ -5,7 +5,7 @@ import Email from "../../../assets/mail.png";
 
 const Address = () => {
   return (
-    <address className="">
+    <address className="d-flex flex-column justify-content-evenly align-items-center">
       <ul>
         <li>
           <a title="mp.pawlowskimichal@gmail.com" href="mailto:mp.pawlowskimichal@gmail.com">

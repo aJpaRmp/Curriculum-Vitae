@@ -1,9 +1,14 @@
 @use "./variables";
 
 body {
-  background-color: variables.$body-bgc !important
-  ;
   #root {
+    margin: auto 20px !important;
     max-width: 794px;
+    h2 {
+      font-size: 20px;
+    }
   }
+}
+body::-webkit-scrollbar {
+  display: none;
 }

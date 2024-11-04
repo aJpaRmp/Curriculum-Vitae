@@ -1,0 +1,29 @@
+@use "../../style/variables";
+
+header {
+  .mypicture {
+    height: 150px;
+  }
+  button {
+    text-transform: uppercase;
+  }
+  address {
+    font-size: 1.1em;
+    margin: 0;
+    ul {
+      margin: 0;
+      padding: 0;
+      vertical-align: middle;
+    }
+    li:first-child {
+      margin-bottom: 10px;
+    }
+    .img-adr {
+      background: variables.$black;
+      padding: 5px;
+    }
+    .link-profile {
+      margin-left: 10px;
+    }
+  }
+}

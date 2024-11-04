@@ -1,9 +1,9 @@
 const Experience = () => {
   return (
-    <section id="experience">
-      <h2 className="text-center">Doświadczenie</h2>
+    <section id="experience" className="w-50">
+      <h2 className="text-center bg-secondary bg-opacity-50 rounded-4 m-1 p-1">Doświadczenie</h2>
       <div className="job d-flex flex-wrap">
-        <ul className="canpack">
+        <ul className="canpack bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-inline">
           <li className="date">08.2023 – 09.2023 (2 mies.)</li>
           <li className="name">
             CANPACK S.A.
@@ -16,7 +16,7 @@ const Experience = () => {
             </ol>
           </li>
         </ul>
-        <ul className="biziel">
+        <ul className="biziel bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-inline">
           <li className="date">08.2022 – 09.2022 (2 mies.)</li>
           <li className="name">Szpital Uniwersytecki nr 2 im. Jana Biziela w Bydgoszczy</li>
           <li className="position">Dział Samodzielnej Sekcji Łączności (STAŻ)</li>
@@ -27,7 +27,7 @@ const Experience = () => {
             </ol>
           </li>
         </ul>
-        <ul className="iiukw">
+        <ul className="iiukw bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-inline">
           <li className="date">12.2021 – 08.2022 (9 mies.)</li>
           <li className="name">Instytut Informatyki Uniwersytetu Kazimierza Wielkiego w Bydgoszczy</li>
           <li className="position">Dział Techniczny</li>
@@ -38,7 +38,7 @@ const Experience = () => {
             </ol>
           </li>
         </ul>
-        <ul className="bassi bass">
+        <ul className="bassi bass bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-inline">
           <li className="date">07.2021 – 09.2021 (3 mies.)</li>
           <li className="name">
             BELMA ACCESSORIES SYSTEMS
@@ -53,7 +53,7 @@ const Experience = () => {
             </ol>
           </li>
         </ul>
-        <ul className="bassm bass">
+        <ul className="bassm bass bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-inline">
           <li className="date">05.2020 – 09.2020 (5 mies.)</li>
           <li className="name">
             BELMA ACCESSORIES SYSTEMS
