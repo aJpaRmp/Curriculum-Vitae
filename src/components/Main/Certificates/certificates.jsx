@@ -1,6 +1,6 @@
 const Certificates = () => {
   return (
-    <section id="certificates">
+    <section id="certificates" className="w-100">
       <h2 className="text-center bg-secondary bg-opacity-50 rounded-4 m-1 p-1">Certyfikaty</h2>
       <div className="d-flex">
         <ul className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-inline">

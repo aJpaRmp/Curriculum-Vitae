@@ -6,15 +6,15 @@ import Email from "../../../assets/mail.png";
 const Address = () => {
   return (
     <address className="d-flex flex-column justify-content-evenly align-items-center">
-      <ul>
-        <li>
+      <ul className="">
+        <li className="list-group">
           <a title="mp.pawlowskimichal@gmail.com" href="mailto:mp.pawlowskimichal@gmail.com">
             <img className="img-adr" id="img-adr-email" src={Email} alt="mój mail" />
             <b>E-mail</b>
             <i>: mp.pawlowskimichal@gmail.com</i>
           </a>
         </li>
-        <li>
+        <li className="list-group">
           <a title="728 117 024" href="tel:728 117 024">
             <img className="img-adr" id="img-adr-tel" src={Tel} alt="mój telefon" />
             <b>Telefon</b>
