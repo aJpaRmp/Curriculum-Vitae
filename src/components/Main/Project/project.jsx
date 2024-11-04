@@ -19,7 +19,7 @@ const Project = () => {
           </li>
         </ul>
 
-        <ul className="xd bg-secondary bg-opacity-25 rounded-4 m-1 p-2 ">
+        <ul className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 ">
           <li className="name list-group">Projekty Komercyjne:</li>
           <li className=" list-group">
             <b>Strona wizytówkowa - Wycieczki do Kenii</b> – Projekt strony promującej wycieczki do Kenii, zawierającej
