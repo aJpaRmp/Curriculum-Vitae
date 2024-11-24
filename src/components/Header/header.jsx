@@ -17,7 +17,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="d-flex justify-content-between p-2">
+    <header className="d-flex justify-content-between flex-row-reverse p-2">
       <img
         className="mypicture rounded-4 border border-2 border-secondary"
         src={Me}
@@ -26,7 +26,7 @@ const Header = () => {
       />
       <div className="d-flex flex-column align-items-center justify-content-center">
         <div className="">
-          <h1>Michał Pawłowski</h1>
+          <h1>Inż. Michał Pawłowski</h1>
           {/* <span>Junior Frontend Developer</span> */}
         </div>
         <button type="button" className="btn btn-outline-secondary m-auto" id="downloadBtn">

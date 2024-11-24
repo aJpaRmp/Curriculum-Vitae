@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <section id="experience" className="w-50">
-      <h2 className="text-center bg-secondary bg-opacity-50 rounded-4 m-1 p-1">Doświadczenie</h2>
+      <h3 className="text-center bg-secondary bg-opacity-50 rounded-4 m-1 p-1">Doświadczenie</h3>
       <div className="job d-flex flex-wrap">
         <ul className="canpack bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-inline">
           <li className="date">08.2023 – 09.2023 (2 mies.)</li>

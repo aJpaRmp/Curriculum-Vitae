@@ -1,10 +1,11 @@
 @use "./variables";
 
 body {
+  padding: 5px;
   #root {
-    margin: auto 20px !important;
+    margin: auto !important;
     max-width: 794px;
-    h2 {
+    h3 {
       font-size: 20px;
     }
   }

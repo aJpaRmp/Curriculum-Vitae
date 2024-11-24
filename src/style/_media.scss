@@ -1,13 +1,27 @@
 @media (max-width: 850px) {
+  h3 {
+    font-size: 15px !important;
+  }
   header {
     h1 {
-      font-size: 1.5em;
+      font-size: 1.35em;
     }
     address {
       margin-right: 15px;
       i {
         display: none;
       }
+    }
+  }
+
+  #education {
+    .name {
+      font-size: 0.75em;
+    }
+  }
+  #certificates {
+    .name-c {
+      font-size: 0.54em;
     }
   }
   #experience {
@@ -41,6 +55,20 @@
     }
     .bassm {
       width: 100%;
+    }
+  }
+  #skills {
+    ul {
+      li {
+        font-size: 0.7em;
+      }
+    }
+  }
+  #interests {
+    ul {
+      li {
+        font-size: 0.9em;
+      }
     }
   }
 }
