@@ -24,7 +24,7 @@ const Header = () => {
         alt="Zdjęcie Michała Pawłowskiego"
         title="Moje zdjęcie"
       />
-      <div className="d-flex flex-column align-items-center justify-content-center">
+      <div className="d-flex flex-column text-center align-items-center justify-content-center">
         <div className="">
           <h1>Inż. Michał Pawłowski</h1>
           {/* <span>Junior Frontend Developer</span> */}

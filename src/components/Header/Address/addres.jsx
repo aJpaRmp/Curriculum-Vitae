@@ -8,26 +8,33 @@ const Address = () => {
     <address className="d-flex flex-column justify-content-evenly align-items-center">
       <ul className="">
         <li className="list-group">
-          <a title="mp.pawlowskimichal@gmail.com" href="mailto:mp.pawlowskimichal@gmail.com">
+          <a
+            className="link-underline link-underline-opacity-0"
+            title="mp.pawlowskimichal@gmail.com"
+            href="mailto:mp.pawlowskimichal@gmail.com"
+          >
             <img className="img-adr" id="img-adr-email" src={Email} alt="mój mail" />
-            <b>E-mail</b>
-            <i>: mp.pawlowskimichal@gmail.com</i>
+            <b>E-mail: </b>
+            {/* <i>kontakt@michalpawlowski.pl</i> */}
+            <i> mp.pawlowskimichal@gmail.com</i>
           </a>
         </li>
         <li className="list-group">
-          <a title="728 117 024" href="tel:728 117 024">
+          <a className="link-underline link-underline-opacity-0" title="728 117 024" href="tel:728 117 024">
             <img className="img-adr" id="img-adr-tel" src={Tel} alt="mój telefon" />
-            <b>Telefon</b>
-            <i>: 728 117 024</i>
+            <b>Telefon: </b>
+            <i> 728 117 024</i>
           </a>
         </li>
       </ul>
-      <div id="links ">
-        <a href="https://www.linkedin.com/in/micha%C5%82-paw%C5%82owski-0b61a4227/">
+      <div id="links">
+        <a className="link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/michalpawlowski-mp/">
           <img className="link-profile" src={Linkedin} alt="Link do mojego profilu na portalu Linkedin" />
+          michalpawlowski-mp
         </a>
-        <a href="https://github.com/aJpaRmp">
+        <a className="link-underline link-underline-opacity-0" href="https://github.com/aJpaRmp">
           <img className="link-profile" src={Git} alt="Link do mojego profilu na GitHub" />
+          aJpaRmp
         </a>
       </div>
     </address>

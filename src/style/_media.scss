@@ -7,9 +7,14 @@
       font-size: 1.35em;
     }
     address {
-      margin-right: 15px;
-      i {
+      b {
         display: none;
+      }
+      i {
+        font-size: 0.7em;
+      }
+      .link-profile {
+        margin-left: 0px;
       }
     }
   }
@@ -30,7 +35,7 @@
       opacity: 0.7;
     }
     .name {
-      font-size: 0.55rem;
+      font-size: 0.56rem;
     }
     .city {
       font-size: 0.8em;
@@ -64,10 +69,17 @@
       }
     }
   }
+  #language {
+    ul {
+      li {
+        font-size: 0.65rem;
+      }
+    }
+  }
   #interests {
     ul {
       li {
-        font-size: 0.9em;
+        font-size: 0.55em;
       }
     }
   }
