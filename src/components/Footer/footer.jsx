@@ -3,6 +3,7 @@ const Footer = () => {
     <>
       <p className="p__info text-center opacity-50 m-5">
         <a
+          target="_blank"
           href="https://github.com/aJpaRmp/Curriculum-Vitae"
           className="text-secondary link-underline link-underline-opacity-0"
         >

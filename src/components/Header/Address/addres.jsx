@@ -28,7 +28,11 @@ const Address = () => {
         </li>
       </ul>
       <div id="links">
-        <a className="link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/michalpawlowski-mp/">
+        <a
+          className="link-underline link-underline-opacity-0"
+          href="https://www.linkedin.com/in/michalpawlowski-mp/"
+          target="_blank"
+        >
           <img
             title="Linkedin"
             className="link-profile"
@@ -37,7 +41,7 @@ const Address = () => {
           />
           michalpawlowski-mp
         </a>
-        <a className="link-underline link-underline-opacity-0" href="https://github.com/aJpaRmp">
+        <a className="link-underline link-underline-opacity-0" href="https://github.com/aJpaRmp" target="_blank">
           <img title="Github" className="link-profile" src={Git} alt="Link do mojego profilu na GitHub" />
           aJpaRmp
         </a>

@@ -43,7 +43,7 @@ const Project = () => {
             wykorzystaniem Vite, HTML, CSS, React, Bootstrap i SCSS, zapewnia responsywność oraz szybkie ładowanie.
           </li>
           <li className="list-group">
-            <a href="https://github.com/aJpaRmp?tab=repositories">
+            <a href="https://github.com/aJpaRmp?tab=repositories" target="_blank">
               - Inne Projekty dostępny na GitHubie wraz z kodem zródłowym
             </a>
           </li>
