@@ -17,7 +17,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="d-flex justify-content-between flex-row-reverse p-2">
+    <header className="d-flex justify-content-between flex-row-reverse p-1">
       <img
         className="mypicture rounded-4 border border-2 border-secondary"
         src={Me}

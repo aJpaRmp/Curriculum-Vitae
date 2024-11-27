@@ -13,7 +13,7 @@ const Address = () => {
             title="mp.pawlowskimichal@gmail.com"
             href="mailto:mp.pawlowskimichal@gmail.com"
           >
-            <img className="img-adr" id="img-adr-email" src={Email} alt="mój mail" />
+            <img title="Email" className="img-adr" id="img-adr-email" src={Email} alt="mój mail" />
             <b>E-mail: </b>
             {/* <i>kontakt@michalpawlowski.pl</i> */}
             <i> mp.pawlowskimichal@gmail.com</i>
@@ -21,7 +21,7 @@ const Address = () => {
         </li>
         <li className="list-group">
           <a className="link-underline link-underline-opacity-0" title="728 117 024" href="tel:728 117 024">
-            <img className="img-adr" id="img-adr-tel" src={Tel} alt="mój telefon" />
+            <img title="Telefon" className="img-adr" id="img-adr-tel" src={Tel} alt="mój telefon" />
             <b>Telefon: </b>
             <i> 728 117 024</i>
           </a>
@@ -29,11 +29,16 @@ const Address = () => {
       </ul>
       <div id="links">
         <a className="link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/michalpawlowski-mp/">
-          <img className="link-profile" src={Linkedin} alt="Link do mojego profilu na portalu Linkedin" />
+          <img
+            title="Linkedin"
+            className="link-profile"
+            src={Linkedin}
+            alt="Link do mojego profilu na portalu Linkedin"
+          />
           michalpawlowski-mp
         </a>
         <a className="link-underline link-underline-opacity-0" href="https://github.com/aJpaRmp">
-          <img className="link-profile" src={Git} alt="Link do mojego profilu na GitHub" />
+          <img title="Github" className="link-profile" src={Git} alt="Link do mojego profilu na GitHub" />
           aJpaRmp
         </a>
       </div>

@@ -24,27 +24,28 @@ const Project = () => {
           <li className=" list-group">
             <b>Strona wizytówkowa - Wycieczki do Kenii</b> – Projekt strony promującej wycieczki do Kenii, zawierającej
             galerię zdjęć, szczegółowy cennik i formularz kontaktowy do organizatora wycieczek. Projekt zrealizowany
-            przy użyciu Vite, HTML, CSS, React, Bootstrap i SCSS, co zapewnia nowoczesny wygląd i responsywność strony.
-            Kod projektu dostępny na GitHubie.
+            przy użyciu Vite, HTML, React, Bootstrap i SCSS, co zapewnia nowoczesny wygląd i responsywność strony. Kod
+            projektu dostępny na GitHubie.
           </li>
         </ul>
+
         <ul className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 ">
           <li className="name list-group">Mini Projekty:</li>
 
           <li className=" list-group">
             <b>Counter</b>– Aplikacja licznika umożliwiająca dodawanie i odejmowanie wartości za pomocą przycisków.
             Stworzona przy użyciu HTML, CSS i JavaScript. Obsługuje wartości liczbowe w zakresie od -9999999 do 99999999
-            oraz zapisuje aktualną wartość licznika w localStorage, aby była dostępna po odświeżeniu strony. Projekt
-            dostępny na GitHubie.
+            oraz zapisuje aktualną wartość licznika w localStorage, aby była dostępna po odświeżeniu strony.
           </li>
           <li className="list-group">
             <b>Strona CV</b> – Strona internetowa prezentująca moje CV w nowoczesnej i przejrzystej formie. Strona
             zawiera sekcje z doświadczeniem zawodowym, umiejętnościami, edukacją oraz możliwością kontaktu. Zbudowana z
             wykorzystaniem Vite, HTML, CSS, React, Bootstrap i SCSS, zapewnia responsywność oraz szybkie ładowanie.
-            Projekt dostępny na GitHubie.
           </li>
           <li className="list-group">
-            <a href="https://github.com/aJpaRmp?tab=repositories">- Inne</a>
+            <a href="https://github.com/aJpaRmp?tab=repositories">
+              - Inne Projekty dostępny na GitHubie wraz z kodem zródłowym
+            </a>
           </li>
         </ul>
       </div>
