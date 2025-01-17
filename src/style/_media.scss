@@ -1,4 +1,7 @@
 @media (max-width: 850px) {
+  h2 {
+    font-size: 16px !important;
+  }
   header {
     h1 {
       font-size: 1.5em;
@@ -8,6 +11,17 @@
       i {
         display: none;
       }
+    }
+  }
+  #education {
+    .date {
+      font-size: 0.5em;
+    }
+    .name {
+      font-size: 0.75rem;
+    }
+    .study {
+      font-size: 0.55em;
     }
   }
   #experience {
@@ -28,19 +42,24 @@
       font-size: 0.7rem;
     }
     .canpack {
-      width: 35%;
+      width: 39%;
     }
     .biziel {
-      width: 58%;
+      width: 54.2%;
     }
     .iiukw {
-      width: 42%;
+      width: 47%;
     }
     .bassi {
-      width: 50%;
+      width: 46%;
     }
     .bassm {
       width: 100%;
+    }
+  }
+  #certificates {
+    .name-c {
+      font-size: 7.6px;
     }
   }
 }

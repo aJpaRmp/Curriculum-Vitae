@@ -7,7 +7,7 @@ const Experience = () => {
           <li className="date">08.2023 – 09.2023 (2 mies.)</li>
           <li className="name">
             CANPACK S.A.
-            <i className="city">Bydgoszcz</i>
+            <i className="city"> Bydgoszcz</i>
           </li>
           <li className="position">Operator maszyn</li>
           <li className="description">
