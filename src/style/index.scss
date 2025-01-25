@@ -1,10 +1,4 @@
-@use "./_reset";
-@use "./_variables";
-@use "./_mixin" as *;
 @use "./_body";
-@use "../components/Footer/footer.scss";
-@use "../components/Header/header.scss";
-@use "../components/Header/Address/addres.scss";
 @use "../components/Main/Certificates/certificates.scss";
 @use "../components/Main/Education/education.scss";
 @use "../components/Main/Experience/experience.scss";
@@ -12,4 +6,3 @@
 @use "../components/Main/Language/language.scss";
 @use "../components/Main/Project/project.scss";
 @use "../components/Main/Skills/skills.scss";
-@use "./_media";
