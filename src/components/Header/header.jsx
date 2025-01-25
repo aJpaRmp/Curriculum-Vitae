@@ -1,5 +1,5 @@
 import Address from "./Address/addres.jsx";
-import Me from "../../assets/MP.jpg";
+import Me from "../../assets/MP.svg";
 import { useEffect } from "react";
 
 const Header = () => {
@@ -17,19 +17,19 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="d-flex justify-content-between p-2">
+    <header className="d-flex justify-content-between p-1">
       <img
-        className="mypicture rounded-4 border border-2 border-secondary"
+        className="mypicture rounded-4 border border-2 border-secondary my-auto"
         src={Me}
         alt="Zdjęcie Michała Pawłowskiego"
         title="Moje zdjęcie"
       />
       <div className="d-flex flex-column align-items-center justify-content-center">
         <div className="">
-          <h1>Michał Pawłowski</h1>
+          <h1 className="fs-2 mt-4">inż. Michał Pawłowski</h1>
           {/* <span>Junior Frontend Developer</span> */}
         </div>
-        <button type="button" className="btn btn-outline-secondary m-auto" id="downloadBtn">
+        <button type="button" className="btn btn-outline-secondary m-auto text-uppercase" id="downloadBtn">
           Pobierz CV
         </button>
       </div>

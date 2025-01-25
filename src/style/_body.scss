@@ -1,14 +1,7 @@
-@use "./variables";
-
-body {
-  #root {
-    margin: auto 20px !important;
-    max-width: 794px;
-    h2 {
-      font-size: 20px;
-    }
-  }
+#root {
+  max-width: 794px;
 }
+
 body::-webkit-scrollbar {
   display: none;
 }
