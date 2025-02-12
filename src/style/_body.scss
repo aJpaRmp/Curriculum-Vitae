@@ -1,7 +1,9 @@
-#root {
-  max-width: 794px;
-}
+body {
+  #root {
+    max-width: 794px;
+  }
 
-body::-webkit-scrollbar {
-  display: none;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
