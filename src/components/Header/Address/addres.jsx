@@ -16,8 +16,8 @@ const Address = () => {
           >
             <img className="p-1 bg-black rounded-3" id="img-adr-email" src={Email} alt="mój mail" />
 
-            <i className="m-1">mp.pawlowskimichal@gmail.com</i>
-            {/* <i className="m-1">kontakt@pawlowskimichal.pl</i> */}
+            {/* <i className="m-1">mp.pawlowskimichal@gmail.com</i> */}
+            <i className="m-1">kontakt@pawlowskimichal.pl</i>
           </a>
         </li>
         <li className="list-group">
