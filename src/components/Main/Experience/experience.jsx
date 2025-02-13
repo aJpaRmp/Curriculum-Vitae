@@ -23,7 +23,7 @@ const Experience = () => {
           <li className="description">
             <ol className="p-0 ps-3">
               <li>Wsparcie techniczne dla szpitalnych systemów łączności</li>
-              <li>Zajmowanie się połączeniami telefonicznymi oraz czytnikami do wejść</li>
+              <li>Zarządzanie systemami telekomunikacyjnymi i kontrolą dostępu</li>
             </ol>
           </li>
         </ul>
@@ -33,7 +33,7 @@ const Experience = () => {
           <li className="position">Dział Techniczny</li>
           <li className="description">
             <ol className="p-0 ps-3">
-              <li>Obsługa techniczna systemów informatycznych oraz sprzętu komputerowego na uczelni.</li>
+              <li>Wsparcie techniczne systemów i sprzętu komputerowego na uczelni</li>
               <li>Wsparcie w utrzymaniu i aktualizacji infrastruktury IT.</li>
             </ol>
           </li>
@@ -48,7 +48,7 @@ const Experience = () => {
           <li className="description">
             <ol className="p-0 ps-3">
               <li>Wsparcie techniczne w zarządzaniu systemami informatycznymi</li>
-              <li>Rozwiązywanie problemów technicznych związanych z siecią i sprzętem komputerowym.(HelpDesk)</li>
+              <li>Rozwiązywanie problemów technicznych związanych z siecią i sprzętem</li>
               <li>Przygotowywanie dokumentacji technicznej.</li>
             </ol>
           </li>

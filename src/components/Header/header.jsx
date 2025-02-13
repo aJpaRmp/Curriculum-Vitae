@@ -6,7 +6,7 @@ const Header = () => {
   useEffect(() => {
     const handleDownload = () => {
       const link = document.createElement("a");
-      link.href = "/Curriculum vitae - Michał Pawłowski.pdf";
+      link.href = "/Curriculum vitae - Michal Pawlowski.pdf";
       link.download = "CV-MichałPawłowski.pdf";
       document.body.appendChild(link);
       link.click();
@@ -29,7 +29,7 @@ const Header = () => {
           <h1 className="fs-2 mt-4">inż. Michał Pawłowski</h1>
           {/* <span>Junior Frontend Developer</span> */}
         </div>
-        <button type="button" className="btn btn-outline-secondary m-auto text-uppercase" id="downloadBtn">
+        <button title="Pobierz moje CV w formie PDF" type="button" className="btn btn-outline-secondary m-auto text-uppercase" id="downloadBtn">
           Pobierz CV
         </button>
       </div>

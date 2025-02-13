@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <p className="p__info text-center opacity-25 mx-3 my-5">
-        <a href="https://github.com/aJpaRmp/Curriculum-Vitae" className="text-secondary link-underline link-underline-opacity-0">
+        <a target="_blank" title="Link do repozytorium CV" href="https://github.com/aJpaRmp/Curriculum-Vitae" className="text-secondary link-underline link-underline-opacity-0">
           CV - wykonane za pomoca HTML , SCSS, Bootstrap , React - Javascript i Vite. Cały kod dostępny na GitHub.
         </a>
       </p>
